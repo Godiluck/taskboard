@@ -46,6 +46,8 @@
 .columnBody {
     height: 100%;
     flex-direction: column;
+    overflow: scroll;
+    row-gap: 20px;
     display: flex;
     justify-content: space-between;
     padding: 20px 12px;
@@ -61,7 +63,6 @@
 .createTask {
     padding: 12px 0;
     width: calc(100% - 8px);
-    margin: 0 4px;
     border-radius: 12px;
     border: 1px solid #f8f8f8;
     background: var(--color-background);
